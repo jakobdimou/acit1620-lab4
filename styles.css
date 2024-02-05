@@ -7,6 +7,7 @@
 .main1 {
     padding: 20px;
     transition: background-color 0.3s ease, color 0.3s ease, padding 0.3s ease;
+    
 }
 
 h2 {
@@ -14,9 +15,15 @@ h2 {
     transition: color 0.3s ease, color 0.3s ease, padding 0.3s ease;
 }
 
+.main1 {
+    padding: 5px;
+    transition: padding 1s ease;
+}
 .main1:hover {
             background-color: var(--primary-color); 
             color: white;
+            padding: 15px;
+            transition: padding 1s ease;
 }
 
 .main2:hover h2 {
